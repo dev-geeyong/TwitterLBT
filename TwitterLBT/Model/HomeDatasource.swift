@@ -9,8 +9,12 @@
 import LBTAComponents
 
 class HomeDatasource: Datasource {
+    let users: [User] = {
+       let brianUser = User(name: "dev.geeyong", username: "@gxxyxxg", bioText: "iphone, ipad, ios programming community. join us to learn Swift, Objctive-C and build IOS apps", profileImage: #imageLiteral(resourceName: "a"))
+        let rayUser = User(name: "Ray Bored", username: "@8puff", bioText: "Ray wenderlich is an iphone developer and cpp on topics reated to iphone, sorftware and lich is an iphone developer and cpp on topics reated to iphone, sorftware and galich is an iphone developer and cpp on topics reated to iphone, sorftware and galich is an iphone developer and cpp on topics reated to iphone, sorftware and galich is an iphone developer and cpp on topics reated to iphone, sorftware and gagaming.", profileImage: #imageLiteral(resourceName: "a"))
+        return [brianUser,rayUser]
+    }()
     
-    let words = ["user1", "user2", "user3"]
     
     override func footerClasses() -> [DatasourceCell.Type]? {
         return [UserFooter.self]
@@ -25,11 +29,11 @@ class HomeDatasource: Datasource {
     }
     
     override func item(_ indexPath: IndexPath) -> Any? {
-        return words[indexPath.item]
+        return users[indexPath.item]
     }
     
     override func numberOfItems(_ section: Int) -> Int {
-        return words.count
+        return users.count
     }
     
 }
