@@ -5,7 +5,7 @@ import LBTAComponents
 class HomeDatasourceController: DatasourceController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        setupNavigationBarItems()
         let homeDatasource = HomeDatasource()
         self.datasource = homeDatasource
     }
