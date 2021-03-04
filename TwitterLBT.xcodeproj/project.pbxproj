@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4632963925F07C2B00A67798 /* TweetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4632963825F07C2B00A67798 /* TweetCell.swift */; };
+		4632963C25F096E900A67798 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4632963B25F096E900A67798 /* Tweet.swift */; };
 		464ABEA125EF534F0015155B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464ABEA025EF534F0015155B /* AppDelegate.swift */; };
 		464ABEA325EF534F0015155B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464ABEA225EF534F0015155B /* SceneDelegate.swift */; };
 		464ABEAA25EF53520015155B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 464ABEA925EF53520015155B /* Assets.xcassets */; };
@@ -23,6 +25,8 @@
 
 /* Begin PBXFileReference section */
 		17CEA53DE98EE04EAAC89D2B /* Pods-TwitterLBT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitterLBT.debug.xcconfig"; path = "Target Support Files/Pods-TwitterLBT/Pods-TwitterLBT.debug.xcconfig"; sourceTree = "<group>"; };
+		4632963825F07C2B00A67798 /* TweetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCell.swift; sourceTree = "<group>"; };
+		4632963B25F096E900A67798 /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
 		464ABE9D25EF534F0015155B /* TwitterLBT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterLBT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		464ABEA025EF534F0015155B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		464ABEA225EF534F0015155B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +95,7 @@
 			children = (
 				464ABEC325EF71BA0015155B /* Cells.swift */,
 				464ABED025EF9E730015155B /* UserCells.swift */,
+				4632963825F07C2B00A67798 /* TweetCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -100,6 +105,7 @@
 			children = (
 				464ABEC925EF71DE0015155B /* HomeDatasource.swift */,
 				464ABECD25EF9BF60015155B /* User.swift */,
+				4632963B25F096E900A67798 /* Tweet.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -250,8 +256,10 @@
 				464ABEA125EF534F0015155B /* AppDelegate.swift in Sources */,
 				464ABED125EF9E730015155B /* UserCells.swift in Sources */,
 				464ABEA325EF534F0015155B /* SceneDelegate.swift in Sources */,
+				4632963925F07C2B00A67798 /* TweetCell.swift in Sources */,
 				464ABEC425EF71BA0015155B /* Cells.swift in Sources */,
 				464ABECE25EF9BF60015155B /* User.swift in Sources */,
+				4632963C25F096E900A67798 /* Tweet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
